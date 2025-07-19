@@ -11,8 +11,9 @@ AgroMitra is a full-stack web application built to **connect farmers who own agr
 
 ## 📸 Screenshot
 
-![AgroMitra Screenshot](client/public/AgroMitra_UI.png)
-
+![AgroMitra Screenshot](AgroMitraHero.png)
+![AgroMitra Screenshot](AgroMitraFeature.png)
+![AgroMitra Screenshot](AgroMitraFooter.png)
 ---
 
 ## 🚀 Features
