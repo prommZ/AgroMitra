@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroMitra - Connect Farmers</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body {
+      background: linear-gradient(to top right, #fef9f4, #e0f7fa);
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 60px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .logo {
+      font-size: 1.8rem;
+      font-weight: bold;
+      color: #2e7d32;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+    }
+
+    nav a.btn {
+      background: #6200ea;
+      color: white;
+      padding: 8px 16px;
+      border-radius: 6px;
+    }
+
+    .hero {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(to right, #a8edea, #fed6e3);
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      color: #2e7d32;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      margin-bottom: 30px;
+    }
+
+    .hero-buttons button {
+      padding: 12px 24px;
+      margin: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+
+    .explore {
+      background-color: #2e7d32;
+      color: white;
+    }
+
+    .list {
+      background-color: #3949ab;
+      color: white;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 50px auto;
+      gap: 40px;
+      max-width: 1000px;
+    }
+
+    .stat-box {
+      background-color: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      width: 200px;
+    }
+
+    .stat-box h2 {
+      font-size: 1.8rem;
+      color: #2e7d32;
+    }
+
+    .stat-box p {
+      font-size: 1rem;
+      margin-top: 8px;
+    }
+
+    .features {
+      background-color: #f3f4f6;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .features h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+    }
+
+    .feature-grid {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .feature-item {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .feature-item h3 {
+      color: #3949ab;
+      margin-bottom: 10px;
+    }
+
+    .language {
+      padding: 50px 20px;
+      text-align: center;
+    }
+
+    .language select {
+      padding: 10px 20px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      font-size: 1rem;
+    }
+
+    footer {
+      background: #2e7d32;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    footer p {
+      margin: 10px 0;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <div class="logo">AgroMitra</div>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#features">Features</a>
+      <a href="#language">Language</a>
+      <a href="#" class="btn">Get Started</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Connect Farmers</h1>
+    <p>Revolutionary platform connecting farmers who own machines with those who need them. Book tractors, harvesters & more with AI-powered matching!</p>
+    <div class="hero-buttons">
+      <button class="explore">Explore Machines</button>
+      <button class="list">List Your Machine</button>
+    </div>
+  </section>
+
+  <section class="stats">
+    <div class="stat-box">
+      <h2>1000+</h2>
+      <p>Active Farmers</p>
+    </div>
+    <div class="stat-box">
+      <h2>500+</h2>
+      <p>Machines Available</p>
+    </div>
+    <div class="stat-box">
+      <h2>4.9★</h2>
+      <p>User Rating</p>
+    </div>
+  </section>
+
+  <section class="features" id="features">
+    <h2>Key Features</h2>
+    <div class="feature-grid">
+      <div class="feature-item">
+        <h3>Geo-location Based Search</h3>
+        <p>Find machines near your farm within 5-10km radius.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Live Availability</h3>
+        <p>See real-time status of machines to avoid delays.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Weather Alerts</h3>
+        <p>Plan your bookings around rain and weather forecasts.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Local Language Support</h3>
+        <p>Access platform in Hindi, Bhojpuri & other native tongues.</p>
+      </div>
+      <div class="feature-item">
+        <h3>WhatsApp Chatbot</h3>
+        <p>Book machines easily via WhatsApp without the app.</p>
+      </div>
+      <div class="feature-item">
+        <h3>Offline Booking Kiosks</h3>
+        <p>Book from local village centers without internet access.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="language" id="language">
+    <h2>Select Your Language</h2>
+    <select>
+      <option value="en">English</option>
+      <option value="hi">Hindi</option>
+      <option value="bho">Bhojpuri</option>
+      <option value="bn">Bengali</option>
+      <option value="mr">Marathi</option>
+    </select>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 AgroMitra. All rights reserved.</p>
+    <p>Connecting Bharat's Farmers with Technology</p>
+  </footer>
+</body>
+
+</html>
