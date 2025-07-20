@@ -57,14 +57,13 @@ agro-mitra/
 ├── client/                  # React Frontend
 │   ├── public/
 │   └── src/
-│       ├── components/      # Reusable UI
-│       ├── pages/           # Page views (Home, Login, Register, etc.)
-│       ├── utils/           # API utils, helpers
-│       └── App.jsx
+│   |   ├── components/      # Reusable UI
+│   |   ├── pages/           # Page views (Home, Login, Register, etc.)
+│   |    ├── utils/           # API utils, helpers
+│   |    └── App.jsx
 │   └── tailwind.config.js
 │   └── index.html
 │   └── package.json
-
 ├── server/                  # Node.js Backend
 │   ├── controllers/
 │   ├── models/
@@ -73,7 +72,6 @@ agro-mitra/
 │   ├── config/
 │   └── server.js
 │   └── .env
-
 ├── README.md
 ├── .gitignore
 └── package.json            # Root package (optional for scripts)
